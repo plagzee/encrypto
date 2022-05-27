@@ -28,3 +28,6 @@ Encrypto is
 - Step 4: Share the file anywhere
 - Step 5: Give the key, (do not loose it, cannot be recovered) to anyone you'd like
 - Step 6: The receiver must have to use Encrypto in order to Decrypt the file
+
+<img src="https://cdn.discordapp.com/attachments/760496001936261230/979684568862982164/unknown.png"></img>
+<img src="https://cdn.discordapp.com/attachments/760496001936261230/979684811138564156/unknown.png"></img>
