@@ -38,4 +38,11 @@ Encrypto is
 - Step 3: Browse the key it is usually located at the "keys" folder. We'll add a option later to access it through app but as for now it is on the "installed encrypto directory/keys" Also make sure you use the right key in order to decrypt
 - Step 4: Decrypt the file and you're ready to read or run it
 
+<img src="https://cdn.discordapp.com/attachments/760496001936261230/979704211832995860/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/760496001936261230/979704599659311174/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/760496001936261230/979704737123414018/unknown.png">
+
+### A note for the people who are using it to encrpyt text files and other kind of code
+Encrypto encrypts the binary data inside any file using a specific token. When encrypting a text file it may not look as it is for applications, you can still open the text file and edit it but the text file will be not readable by any human being
+
 #### © PlayZBhai 2022
