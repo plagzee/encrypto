@@ -31,3 +31,11 @@ Encrypto is
 
 <img src="https://cdn.discordapp.com/attachments/760496001936261230/979684568862982164/unknown.png"></img>
 <img src="https://cdn.discordapp.com/attachments/760496001936261230/979684811138564156/unknown.png"></img>
+
+## Decrypting
+- Step 1: Open Decrypto from the Encrypto's file menu
+- Step 2: Browse the encrypted file or apllication
+- Step 3: Browse the key it is usually located at the "keys" folder. We'll add a option later to access it through app but as for now it is on the "installed encrypto directory/keys" Also make sure you use the right key in order to decrypt
+- Step 4: Decrypt the file and you're ready to read or run it
+
+#### © PlayZBhai 2022
