@@ -1,0 +1,13 @@
+{
+
+    "manifest_version": 1,
+    "name": "Encrypto",
+    "version": "1.0.0",
+  
+    "description": "A piece of software that makes sharing any application or file or anything safely. Uses ransomware tech to do something for good rather than just corrupting your files.",
+  
+    "icons": {
+      "48": "icon.ico"
+    }
+  
+  }
