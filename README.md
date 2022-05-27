@@ -20,3 +20,11 @@ Encrypto is
 - ✅One Time Key 
 - ✅Unique token that cannot be cracked
 - ✅A new way to share files securely
+
+## Encrypting
+- Step 1: Browse the file you want to encrypt
+- Step 2: Give the name of the key
+- Step 3: Encrypt the File
+- Step 4: Share the file anywhere
+- Step 5: Give the key, (do not loose it, cannot be recovered) to anyone you'd like
+- Step 6: The receiver must have to use Encrypto in order to Decrypt the file
