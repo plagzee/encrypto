@@ -1,2 +1,4 @@
-# encrypto
-A piece of software that makes sharing any application or file or anything safely. Uses ransomware tech to do something for good rather than just corrupting your files.
+<h1 align="center">Encryto</h1>
+<p>
+  https://img.shields.io/github/last-commit/PlayZBhai/encrypto
+</p>
