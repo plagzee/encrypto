@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/script">
+        <file>scripts/windows/encrypt.exe</file>
+    </qresource>
+</RCC>

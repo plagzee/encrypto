@@ -20,6 +20,8 @@ private slots:
 
     void on_browse_btn_clicked();
 
+    void on_encrypt_btn_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

@@ -4,6 +4,13 @@
 #include <QMessageBox>
 #include <QFileDialog>
 #include <QDir>
+#include <QFile>
+#include <QTextStream>
+#include <QGraphicsDropShadowEffect>
+#include <QDesktopServices>
+#include <QUrl>
+#include <QProcess>
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -11,6 +18,12 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     ui->label->setText("N/A");
+
+    QGraphicsDropShadowEffect *shadow = new QGraphicsDropShadowEffect(this);
+    shadow->setBlurRadius(70);
+    shadow->setColor(QColor(0, 0, 0, 255));
+    shadow->setOffset(0);
+    ui->frame_2->setGraphicsEffect(shadow);
 }
 
 char get_operating_system()
@@ -61,8 +74,19 @@ void MainWindow::on_browse_btn_clicked()
     }
 
     ui->label->setText(file_name);
-}
+    QFile selectedFile("selectedFile.enloc");
+    if(!selectedFile.open(QFile::WriteOnly | QFile::Text)) {
+        QMessageBox::information(this, "Error", "We had trouble reading and writing data. Please run the program as administrator");
+        return;
+    }
 
+    QTextStream out(&selectedFile);
+    out << file_name;
+    selectedFile.flush();
+    selectedFile.close();
+
+    QDesktopServices::openUrl(QUrl("file:///encrypt.exe", QUrl::TolerantMode));
+}
 
 MainWindow::~MainWindow()
 {
@@ -75,5 +99,27 @@ MainWindow::~MainWindow()
 void MainWindow::on_pushButton_clicked()
 {
     return;
+}
+
+
+void MainWindow::on_encrypt_btn_clicked()
+{
+
+    QString givenKeyName = ui->keyEdit->text();
+
+    QFile selectedKey("selectedKey.enloc");
+    if(!selectedKey.open(QFile::WriteOnly | QFile::Text)) {
+        QMessageBox::information(this, "Error", "We had trouble reading and writing data. Please run the program as administrator");
+        return;
+    }
+
+    QTextStream out(&selectedKey);
+    out << givenKeyName;
+    selectedKey.flush();
+    selectedKey.close();
+    QProcess *process = new QProcess(this);
+    process->startDetached("encrypt.exe");
+    process->waitForFinished();
+    QMessageBox::information(this, "Success", "Encryption successful");
 }
 
