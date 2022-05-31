@@ -115,7 +115,7 @@ QPushButton:hover {
      <property name="geometry">
       <rect>
        <x>50</x>
-       <y>210</y>
+       <y>200</y>
        <width>291</width>
        <height>31</height>
       </rect>
@@ -282,19 +282,83 @@ QPushButton:hover {
        <string>/keys</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_2">
-      <property name="geometry">
-       <rect>
-        <x>200</x>
-        <y>85</y>
-        <width>80</width>
-        <height>26</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Show</string>
-      </property>
-     </widget>
+    </widget>
+    <widget class="QPushButton" name="decrypt_btn">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>290</y>
+       <width>191</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	font-size: 18px;
+	color: black;
+	background-color: rgb(0, 255, 127)
+}
+
+QPushButton:hover {
+	background-color: rgb(170, 0, 0);
+	color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>Decrypt</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="browse_btn_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>280</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	font-size: 22px;
+	background-color: rgb(0, 255, 127);
+	color: black;
+	border-radius: 24px;
+}
+
+QPushButton:hover {
+	background-color: white;
+	color: black;
+	border: 6px solid rgb(0, 255, 127)
+}</string>
+     </property>
+     <property name="text">
+      <string>Browse Key</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>290</y>
+       <width>341</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+	font-size: 18px;
+	color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>N/A</string>
+     </property>
     </widget>
    </widget>
   </widget>

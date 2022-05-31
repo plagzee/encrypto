@@ -84,8 +84,6 @@ void MainWindow::on_browse_btn_clicked()
     out << file_name;
     selectedFile.flush();
     selectedFile.close();
-
-    QDesktopServices::openUrl(QUrl("file:///encrypt.exe", QUrl::TolerantMode));
 }
 
 MainWindow::~MainWindow()
@@ -105,7 +103,16 @@ void MainWindow::on_pushButton_clicked()
 void MainWindow::on_encrypt_btn_clicked()
 {
 
+    if(ui->label->text() == "N/A"){
+        QMessageBox::information(this, "Error", "Please given a file to encrypt");
+        return;
+    }
+
     QString givenKeyName = ui->keyEdit->text();
+
+    if(ui->keyEdit->text() == "") {
+        QMessageBox::warning(this, "Error", "Please enter a key name!");
+    }
 
     QFile selectedKey("selectedKey.enloc");
     if(!selectedKey.open(QFile::WriteOnly | QFile::Text)) {
@@ -121,5 +128,53 @@ void MainWindow::on_encrypt_btn_clicked()
     process->startDetached("encrypt.exe");
     process->waitForFinished();
     QMessageBox::information(this, "Success", "Encryption successful");
+}
+
+
+void MainWindow::on_browse_btn_2_clicked()
+{
+    QString key_name = QFileDialog::getOpenFileName(this, "Choose a file", QDir::homePath());
+
+    if(key_name.isEmpty()) {
+        QMessageBox::information(this, "Error", "No file selected");
+        return;
+    }
+
+    if(key_name.isNull()) {
+        QMessageBox::information(this, "Error", "No file selected");
+        return;
+    }
+
+    if(key_name == "") {
+        QMessageBox::information(this, "Error", "No file selected");
+        return;
+    }
+
+    ui->label_3->setText(key_name);
+    QFile selectedKey("selectedGivenKey.enloc");
+    if(!selectedKey.open(QFile::WriteOnly | QFile::Text)) {
+        QMessageBox::information(this, "Error", "We had trouble reading and writing data. Please run the program as administrator");
+        return;
+    }
+
+    QTextStream out(&selectedKey);
+    out << key_name;
+    selectedKey.flush();
+    selectedKey.close();
+}
+
+
+void MainWindow::on_decrypt_btn_clicked()
+{
+
+    if(ui->label->text() == "N/A"){
+        QMessageBox::information(this, "Error", "Please given a file to decrypt");
+        return;
+    }
+
+    QProcess *process = new QProcess(this);
+    process->startDetached("decrypt.exe");
+    process->waitForFinished();
+    QMessageBox::information(this, "Success", "Decryption successful");
 }
 

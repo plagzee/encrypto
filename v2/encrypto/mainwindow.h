@@ -22,6 +22,10 @@ private slots:
 
     void on_encrypt_btn_clicked();
 
+    void on_browse_btn_2_clicked();
+
+    void on_decrypt_btn_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

@@ -37,7 +37,9 @@ public:
     QLabel *label_6;
     QLabel *label_7;
     QLabel *label_8;
-    QPushButton *pushButton_2;
+    QPushButton *decrypt_btn;
+    QPushButton *browse_btn_2;
+    QLabel *label_3;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -85,7 +87,7 @@ public:
         pushButton->setStyleSheet(QString::fromUtf8(""));
         keyEdit = new QLineEdit(frame);
         keyEdit->setObjectName(QString::fromUtf8("keyEdit"));
-        keyEdit->setGeometry(QRect(50, 210, 291, 31));
+        keyEdit->setGeometry(QRect(50, 200, 291, 31));
         keyEdit->setStyleSheet(QString::fromUtf8("QLineEdit {\n"
 "	font-size: 18px;\n"
 "}"));
@@ -147,9 +149,43 @@ public:
         label_8->setStyleSheet(QString::fromUtf8("QLabel {\n"
 "	color: green;\n"
 "}"));
-        pushButton_2 = new QPushButton(frame_2);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(200, 85, 80, 26));
+        decrypt_btn = new QPushButton(frame);
+        decrypt_btn->setObjectName(QString::fromUtf8("decrypt_btn"));
+        decrypt_btn->setGeometry(QRect(580, 290, 191, 41));
+        decrypt_btn->setCursor(QCursor(Qt::PointingHandCursor));
+        decrypt_btn->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"	font-size: 18px;\n"
+"	color: black;\n"
+"	background-color: rgb(0, 255, 127)\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"	background-color: rgb(170, 0, 0);\n"
+"	color: white;\n"
+"}"));
+        browse_btn_2 = new QPushButton(frame);
+        browse_btn_2->setObjectName(QString::fromUtf8("browse_btn_2"));
+        browse_btn_2->setGeometry(QRect(10, 280, 141, 51));
+        browse_btn_2->setCursor(QCursor(Qt::PointingHandCursor));
+        browse_btn_2->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"	font-size: 22px;\n"
+"	background-color: rgb(0, 255, 127);\n"
+"	color: black;\n"
+"	border-radius: 24px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"	background-color: white;\n"
+"	color: black;\n"
+"	border: 6px solid rgb(0, 255, 127)\n"
+"}"));
+        label_3 = new QLabel(frame);
+        label_3->setObjectName(QString::fromUtf8("label_3"));
+        label_3->setGeometry(QRect(180, 290, 341, 31));
+        label_3->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"	font-size: 18px;\n"
+"	color: white;\n"
+"}"));
         MainWindow->setCentralWidget(centralwidget);
 
         retranslateUi(MainWindow);
@@ -170,7 +206,9 @@ public:
         label_6->setText(QCoreApplication::translate("MainWindow", "OK", nullptr));
         label_7->setText(QCoreApplication::translate("MainWindow", "OK", nullptr));
         label_8->setText(QCoreApplication::translate("MainWindow", "/keys", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("MainWindow", "Show", nullptr));
+        decrypt_btn->setText(QCoreApplication::translate("MainWindow", "Decrypt", nullptr));
+        browse_btn_2->setText(QCoreApplication::translate("MainWindow", "Browse Key", nullptr));
+        label_3->setText(QCoreApplication::translate("MainWindow", "N/A", nullptr));
     } // retranslateUi
 
 };
