@@ -24,4 +24,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    resource.qrc
+    resources.qrc
+
+RC_ICONS = icon.ico

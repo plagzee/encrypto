@@ -23,7 +23,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Encrypto</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QFrame" name="frame">
@@ -98,10 +98,10 @@ QPushButton:hover {
     <widget class="QPushButton" name="pushButton">
      <property name="geometry">
       <rect>
-       <x>780</x>
-       <y>580</y>
-       <width>16</width>
-       <height>16</height>
+       <x>755</x>
+       <y>565</y>
+       <width>41</width>
+       <height>31</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -282,6 +282,17 @@ QPushButton:hover {
        <string>/keys</string>
       </property>
      </widget>
+     <widget class="QWidget" name="formLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>10</y>
+        <width>160</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout"/>
+     </widget>
     </widget>
     <widget class="QPushButton" name="decrypt_btn">
      <property name="geometry">
@@ -314,8 +325,8 @@ QPushButton:hover {
     <widget class="QPushButton" name="browse_btn_2">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>280</y>
+       <x>50</x>
+       <y>290</y>
        <width>141</width>
        <height>51</height>
       </rect>
@@ -344,8 +355,8 @@ QPushButton:hover {
     <widget class="QLabel" name="label_3">
      <property name="geometry">
       <rect>
-       <x>180</x>
-       <y>290</y>
+       <x>230</x>
+       <y>300</y>
        <width>341</width>
        <height>31</height>
       </rect>
