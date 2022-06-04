@@ -1,6 +1,5 @@
 <h1 align="center">Encryto</h1>
 <p align="center">
-  
   <img src="https://img.shields.io/github/v/release/PlayZBhai/encrypto"></img>
   <img src="https://img.shields.io/github/issues-raw/PlayZBhai/encrypto"></img>
   <img src="https://img.shields.io/github/license/PlayZBhai/encrypto?logoColor=orange"></img>
