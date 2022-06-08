@@ -16,14 +16,14 @@ Encrypto is a safe file transfer method to use rather than using files with pass
 Created By -PlayZBhai
 
 ## Analysis: 📊
-[Motivation 😲](https://github.com/PlayZBhai/encrypto#motivation-)
-[Why Encrypto? 💭](https://github.com/PlayZBhai/encrypto#why-encrypto-) and [Why not other methods? 🤔](https://github.com/PlayZBhai/encrypto#why-not-other-methods-)
-[Advantages 🤩](https://github.com/PlayZBhai/encrypto#advantages-)
-[Disadvantages 🤦](https://github.com/PlayZBhai/encrypto#disadvantages-)
-[Requirements 📝](https://github.com/PlayZBhai/encrypto#requirements-) and also have some limitaions with [Requirements of shell script 📝](https://github.com/PlayZBhai/encrypto#for-shell-application-)
-[Installation 📦](https://github.com/PlayZBhai/encrypto#installation-)
-[Usage 📚](https://github.com/PlayZBhai/encrypto#usage-)
-[Credits 💳](https://github.com/PlayZBhai/encrypto#developers-and-maintainers-)
+- [Motivation 😲](https://github.com/PlayZBhai/encrypto#motivation-)
+- [Why Encrypto? 💭](https://github.com/PlayZBhai/encrypto#why-encrypto-) and [Why not other methods? 🤔](https://github.com/PlayZBhai/encrypto#why-not-other-methods-)
+- [Advantages 🤩](https://github.com/PlayZBhai/encrypto#advantages-)
+- [Disadvantages 🤦](https://github.com/PlayZBhai/encrypto#disadvantages-)
+- [Requirements 📝](https://github.com/PlayZBhai/encrypto#requirements-) and also have some limitaions with [Requirements of shell script 📝](https://github.com/PlayZBhai/encrypto#for-shell-application-)
+- [Installation 📦](https://github.com/PlayZBhai/encrypto#installation-)
+- [Usage 📚](https://github.com/PlayZBhai/encrypto#usage-)
+- [Credits 💳](https://github.com/PlayZBhai/encrypto#developers-and-maintainers-)
 
 ## Motivation 😲
 In the world of file sharing, we can see that is usually done with password protected files or the cloud. But, in this case there is a problem. The files are not encrypted and can be easily accessed by anyone. This problem arises because of the fact these file sharing methods are not secure and are vurnerable which depends on the person who is sharing the file.
