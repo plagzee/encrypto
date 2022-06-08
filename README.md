@@ -74,7 +74,7 @@ Even though other methods are extremely reliable and secure, they are not suitab
 Shell application is yet under development.
 
 ## Usage 📚
-Please read out the [documentation](https://playzbhai.github.io/encrypto/documentation.html) for more information.
+Please read out the [documentation](https://playzbhai.github.io/encrypto/) for more information.
 
 ## Contributing 💻
 If you have any suggestions or bug reports, please open an issue or create a pull request. 
@@ -90,7 +90,7 @@ Right now the program has:-
 - ❌ Something that shows how other methods are vulnerable to attack.
 
 ### How to contribute? 📝
-If you want to contribute in the program, feel free to open an issue or create a pull request. Howevever, before that. Please take a look at our [contribution guidelines](https://playzbhai.github.io.encrypto).
+If you want to contribute in the program, feel free to open an issue or create a pull request. Howevever, before that. Please take a look at our [contribution guidelines](https://playzbhai.github.io/encrypto).
 
 ## Developers and maintainers 🤓
 - PlayZBhai (Founder)
