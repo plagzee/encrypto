@@ -10,37 +10,78 @@
 </p>
 
 
-### Description:
+## Description: 📒
 Encrypto is a safe file transfer method to use rather than using files with password which can be cracked using brute force and other password cracking methods. Encrypt uses a ransomware technology for good. It encrypts any application or file and creates a key for it with an unique token in "/keys" folder. The key can be sent securely to the person who you want to access the file. Means post your file publicly but the one who can access it is in your hands!
 
-Encrypto is
-- ✅Safe
-- ✅Fast
-- ✅One Time Key 
-- ✅Unique token that cannot be cracked
-- ✅A new way to share files securely
+Created By -PlayZBhai
 
-## Encrypting
-- Step 1: Browse the file you want to encrypt
-- Step 2: Give the name of the key
-- Step 3: Encrypt the File
-- Step 4: Share the file anywhere
-- Step 5: Give the key, (do not loose it, cannot be recovered) to anyone you'd like
-- Step 6: The receiver must have to use Encrypto in order to Decrypt the file
-Encrypto can encrypt any file from text files to images to videos to apllications. 
+## Motivation 😲
+In the world of file sharing, we can see that is usually done with password protected files or the cloud. But, in this case there is a problem. The files are not encrypted and can be easily accessed by anyone. This problem arises because of the fact these file sharing methods are not secure and are vurnerable which depends on the person who is sharing the file.
 
-<img src="https://cdn.discordapp.com/attachments/760496001936261230/981237851146551337/unknown.png"></img>
-<img src="https://cdn.discordapp.com/attachments/760496001936261230/981238047314178078/unknown.png"></img>
+### Why Encrypto? 🤔
+Encrypto encrypts the file and creates a key for it. The key is unique and can be sent to the person who wants to access the file. The file is encrypted and the key is not. The key is used to decrypt the file.
 
-## Decrypting
-- Step 1: Browse the encrypted file or apllication
-- Step 2: Browse the key it is usually located at the "keys" folder. We'll add a option later to access it through app but as for now it is on the "installed encrypto directory/keys" Also make sure you use the right key in order to decrypt
-- Step 3: Decrypt the file and you're ready to read or run it
+### Why not other methods? 🤔
+Even though other methods are extremely reliable and secure, they are not suitable for really confidential file sharing. Encrypto is a safe file sharing method because it is not vulnerable to any kind of attack like brute force or account takeovers. 
 
-<img src="https://cdn.discordapp.com/attachments/760496001936261230/981238583585292318/unknown.png">
-<img src="https://cdn.discordapp.com/attachments/760496001936261230/979704737123414018/unknown.png">
+### Advantages ✔
+- ✅ Encrypto is really quick as it encrypts only a small part of the file.
 
-### A note for the people who are using it to encrpyt text files and other kind of code
-Encrypto encrypts the binary data inside any file using a specific token. When encrypting a text file it may not look as it is for applications, you can still open the text file and edit it but the text file will be not readable by any human being
+- ✅ Encrypto generates an unique token that can neither be found in any kind of word lists. 
 
-#### © PlayZBhai 2022
+- ✅ Encrypto is not vulnerable to any kind of attack like brute force or account takeovers.
+
+- ✅ Encrypto uses the same technology as ransomware. It takes over an file and locks with a token.
+
+- ✅ It is still secured even though it is an open-source project. Encrypto uses complex yet easy to read algorithms to encrypt the file.
+
+### Disadvantages ❌
+- ❌ The key should not be handed over to any person who is not trusted to open the file. As once he has it he can spread it too, which is not good. It completely depends on the person who is sharing the file. (Beaware of social engineering)
+
+- ❌ The key is not encrypted. It can be easily found in the file.
+
+- ❌ The key is one and only. Once lost, cannot be recovered.
+
+- ❌ Encrypto is currently only maintained by only one person at this time and we're out for other contributors.
+
+## Requirements 📦
+- Windows 10 64 bit or higher (The program will soon be also available for Linux and Mac)
+
+### For shell application 📦
+- Python 3.9.5 or higher
+- Fernet library
+
+## Installation 📦
+1. Go to [releases page](https://github.com/PlayZBhai/encrypto/releases) and download the latest version of the program.
+2. Run the setup or extract the application and run it.
+3. Enjoy 😎
+
+### For shell application 📦
+1. Download the Shell application from [here]()
+2. Install the requirements by 
+```pip install -r requirements.txt```
+
+Shell application is yet under development.
+
+## Usage 📚
+Please read out the [documentation](https://playzbhai.github.io/encrypto/documentation.html) for more information.
+
+## Contributing 💻
+If you have any suggestions or bug reports, please open an issue or create a pull request. 
+In this current states, we can't say it is not possible to contribute to the project. The program is fully functioning but there are many ways you can improve it.
+
+Right now the program has:-
+✅ A fully functional methods to encrypt and decrypt files.
+✅ A lot more better GUI than the previous version. (1.0.0)/
+❌ Haven't impletmented a great GUI yet.
+❌ No Menus to show File, Help, About, etc.
+❌ The shell application is not yet fully functional and is under development (By 8th June 2022)/
+❌ No other code contributors yet other than the owner & founder myself. 
+❌ Something that shows how other methods are vulnerable to attack.
+
+### How to contribute? 📝
+If you want to contribute in the program, feel free to open an issue or create a pull request. Howevever, before that. Please take a look at our [contribution guidelines](https://playzbhai.github.io.encrypto).
+
+## Developers and maintainers 🤓
+- PlayZBhai (Founder)
+We'll also add your name in case of an contribution. You're credited everywhere even in the changelogs.
