@@ -15,6 +15,16 @@ Encrypto is a safe file transfer method to use rather than using files with pass
 
 Created By -PlayZBhai
 
+## Analysis: 📊
+[Motivation 😲](https://github.com/PlayZBhai/encrypto#motivation-)
+[Why Encrypto? 💭](https://github.com/PlayZBhai/encrypto#why-encrypto-) and [Why not other methods? 🤔](https://github.com/PlayZBhai/encrypto#why-not-other-methods-)
+[Advantages 🤩](https://github.com/PlayZBhai/encrypto#advantages-)
+[Disadvantages 🤦](https://github.com/PlayZBhai/encrypto#disadvantages-)
+[Requirements 📝](https://github.com/PlayZBhai/encrypto#requirements-) and also have some limitaions with [Requirements of shell script 📝](https://github.com/PlayZBhai/encrypto#for-shell-application-)
+[Installation 📦](https://github.com/PlayZBhai/encrypto#installation-)
+[Usage 📚](https://github.com/PlayZBhai/encrypto#usage-)
+[Credits 💳](https://github.com/PlayZBhai/encrypto#developers-and-maintainers-)
+
 ## Motivation 😲
 In the world of file sharing, we can see that is usually done with password protected files or the cloud. But, in this case there is a problem. The files are not encrypted and can be easily accessed by anyone. This problem arises because of the fact these file sharing methods are not secure and are vurnerable which depends on the person who is sharing the file.
 
@@ -71,13 +81,13 @@ If you have any suggestions or bug reports, please open an issue or create a pul
 In this current states, we can't say it is not possible to contribute to the project. The program is fully functioning but there are many ways you can improve it.
 
 Right now the program has:-
-✅ A fully functional methods to encrypt and decrypt files.
-✅ A lot more better GUI than the previous version. (1.0.0)/
-❌ Haven't impletmented a great GUI yet.
-❌ No Menus to show File, Help, About, etc.
-❌ The shell application is not yet fully functional and is under development (By 8th June 2022)/
-❌ No other code contributors yet other than the owner & founder myself. 
-❌ Something that shows how other methods are vulnerable to attack.
+- ✅ A fully functional methods to encrypt and decrypt files.
+- ✅ A lot more better GUI than the previous version. (1.0.0)/
+- ❌ Haven't impletmented a great GUI yet.
+- ❌ No Menus to show File, Help, About, etc.
+- ❌ The shell application is not yet fully functional and is under development (By 8th June 2022)/
+- ❌ No other code contributors yet other than the owner & founder myself. 
+- ❌ Something that shows how other methods are vulnerable to attack.
 
 ### How to contribute? 📝
 If you want to contribute in the program, feel free to open an issue or create a pull request. Howevever, before that. Please take a look at our [contribution guidelines](https://playzbhai.github.io.encrypto).
