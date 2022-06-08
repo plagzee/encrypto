@@ -16,5 +16,5 @@ In order to decrypt a file, you need to follow the steps below.
 3. Click on **Decrypt** button.
 4. The file will be decrypted.
 
-### IMPORTANT
+### IMPORTANT NOTE
 The documentaion is incomplete and we're looking forward to use a whole new website to completely create it. If you have any suggestions, please feel free to contact us. Till then you're still allowed to create pull request as we don't have any written guidelines yet.
