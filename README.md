@@ -94,4 +94,5 @@ If you want to contribute in the program, feel free to open an issue or create a
 
 ## Developers and maintainers 🤓
 - PlayZBhai (Founder)
+- aashish6377 (Co-Founder. Releases Maintainer. Development
 We'll also add your name in case of an contribution. You're credited everywhere even in the changelogs.
