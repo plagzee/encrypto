@@ -84,6 +84,7 @@ We're looking forward to:
 - A better GUI
 - The v3 will be containing a lot more stuff like password decryptor and RAR cracker
 - Shell application under development
+- Cross plat form support (Mac & Linux)
 
 ### How to contribute? 📝
 If you want to contribute in the program, feel free to open an issue or create a pull request. Howevever, before that. Please take a look at our [contribution guidelines](https://playzbhai.github.io/encrypto).
