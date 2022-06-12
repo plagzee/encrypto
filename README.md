@@ -80,14 +80,10 @@ Please read out the [documentation](https://playzbhai.github.io/encrypto/) for m
 If you have any suggestions or bug reports, please open an issue or create a pull request. 
 In this current states, we can't say it is not possible to contribute to the project. The program is fully functioning but there are many ways you can improve it.
 
-Right now the program has:-
-- ✅ A fully functional methods to encrypt and decrypt files.
-- ✅ A lot more better GUI than the previous version. (1.0.0)/
-- ❌ Haven't impletmented a great GUI yet.
-- ❌ No Menus to show File, Help, About, etc.
-- ❌ The shell application is not yet fully functional and is under development (By 8th June 2022)/
-- ❌ No other code contributors yet other than the owner & founder myself. 
-- ❌ Something that shows how other methods are vulnerable to attack.
+We're looking forward to:
+- A better GUI
+- The v3 will be containing a lot more stuff like password decryptor and RAR cracker
+- Shell application under development
 
 ### How to contribute? 📝
 If you want to contribute in the program, feel free to open an issue or create a pull request. Howevever, before that. Please take a look at our [contribution guidelines](https://playzbhai.github.io/encrypto).
