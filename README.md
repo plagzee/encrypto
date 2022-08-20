@@ -1,8 +1,8 @@
 <h1 align="center">Encryto</h1>
 <p align="center">
-  <img src="https://img.shields.io/github/v/release/PlayZBhai/encrypto"></img>
-  <img src="https://img.shields.io/github/issues-raw/PlayZBhai/encrypto"></img>
-  <img src="https://img.shields.io/github/license/PlayZBhai/encrypto?logoColor=orange"></img>
+  <img src="https://img.shields.io/github/v/release/plagzee/encrypto"></img>
+  <img src="https://img.shields.io/github/issues-raw/plagzee/encrypto"></img>
+  <img src="https://img.shields.io/github/license/plagzee/encrypto?logoColor=orange"></img>
 </p>
 
 <p align="center">
@@ -13,17 +13,17 @@
 ## Description: 📒
 Encrypto is a safe file transfer method to use rather than using files with password which can be cracked using brute force and other password cracking methods. Encrypt uses a ransomware technology for good. It encrypts any application or file and creates a key for it with an unique token in "/keys" folder. The key can be sent securely to the person who you want to access the file. Means post your file publicly but the one who can access it is in your hands!
 
-Created By -PlayZBhai
+Created By -plagzee
 
 ## Analysis: 📊
-- [Motivation 😲](https://github.com/PlayZBhai/encrypto#motivation-)
-- [Why Encrypto? 💭](https://github.com/PlayZBhai/encrypto#why-encrypto-) and [Why not other methods? 🤔](https://github.com/PlayZBhai/encrypto#why-not-other-methods-)
-- [Advantages 🤩](https://github.com/PlayZBhai/encrypto#advantages-)
-- [Disadvantages 🤦](https://github.com/PlayZBhai/encrypto#disadvantages-)
-- [Requirements 📝](https://github.com/PlayZBhai/encrypto#requirements-) and also have some limitaions with [Requirements of shell script 📝](https://github.com/PlayZBhai/encrypto#for-shell-application-)
-- [Installation 📦](https://github.com/PlayZBhai/encrypto#installation-)
-- [Usage 📚](https://github.com/PlayZBhai/encrypto#usage-)
-- [Credits 💳](https://github.com/PlayZBhai/encrypto#developers-and-maintainers-)
+- [Motivation 😲](https://github.com/plagzee/encrypto#motivation-)
+- [Why Encrypto? 💭](https://github.com/plagzee/encrypto#why-encrypto-) and [Why not other methods? 🤔](https://github.com/plagzee/encrypto#why-not-other-methods-)
+- [Advantages 🤩](https://github.com/plagzee/encrypto#advantages-)
+- [Disadvantages 🤦](https://github.com/plagzee/encrypto#disadvantages-)
+- [Requirements 📝](https://github.com/plagzee/encrypto#requirements-) and also have some limitaions with [Requirements of shell script 📝](https://github.com/plagzee/encrypto#for-shell-application-)
+- [Installation 📦](https://github.com/plagzee/encrypto#installation-)
+- [Usage 📚](https://github.com/plagzee/encrypto#usage-)
+- [Credits 💳](https://github.com/plagzee/encrypto#developers-and-maintainers-)
 
 ## Motivation 😲
 In the world of file sharing, we can see that is usually done with password protected files or the cloud. But, in this case there is a problem. The files are not encrypted and can be easily accessed by anyone. This problem arises because of the fact these file sharing methods are not secure and are vurnerable which depends on the person who is sharing the file.
@@ -62,7 +62,7 @@ Even though other methods are extremely reliable and secure, they are not suitab
 - Fernet library
 
 ## Installation 📦
-1. Go to [releases page](https://github.com/PlayZBhai/encrypto/releases) and download the latest version of the program.
+1. Go to [releases page](https://github.com/plagzee/encrypto/releases) and download the latest version of the program.
 2. Run the setup or extract the application and run it.
 3. Enjoy 😎
 
@@ -90,6 +90,6 @@ We're looking forward to:
 If you want to contribute in the program, feel free to open an issue or create a pull request. Howevever, before that. Please take a look at our [contribution guidelines](https://voidal493.gitbook.io/encrypto-documentation/).
 
 ## Developers and maintainers 🤓
-- PlayZBhai (Founder)
+- plagzee (Founder)
 - aashish6377 (Co-Founder. Releases Maintainer. Development
 We'll also add your name in case of an contribution. You're credited everywhere even in the changelogs.
