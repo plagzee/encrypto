@@ -1,9 +1,4 @@
 <h1 align="center">Encryto</h1>
-<p align="center">
-  <img src="https://img.shields.io/github/v/release/plagzee/encrypto"></img>
-  <img src="https://img.shields.io/github/issues-raw/plagzee/encrypto"></img>
-  <img src="https://img.shields.io/github/license/plagzee/encrypto?logoColor=orange"></img>
-</p>
 
 <p align="center">
   <img src="https://media.discordapp.net/attachments/760496001936261230/981236375175188520/unknown.png?width=719&height=568"></img>
