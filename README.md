@@ -8,6 +8,8 @@
 ## Description: 📒
 Encrypto is a safe file transfer method to use rather than using files with password which can be cracked using brute force and other password cracking methods. Encrypt uses a ransomware technology for good. It encrypts any application or file and creates a key for it with an unique token in "/keys" folder. The key can be sent securely to the person who you want to access the file. Means post your file publicly but the one who can access it is in your hands!
 
+#### We're dropping a new update in a few days
+
 Created By -plagzee
 
 ## Analysis: 📊
