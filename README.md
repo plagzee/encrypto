@@ -1,92 +1,128 @@
-<h1 align="center">Encryto</h1>
+<h1 align="center">🔐 Encrypto</h1>
 
 <p align="center">
-  <img src="https://media.discordapp.net/attachments/760496001936261230/981236375175188520/unknown.png?width=719&height=568"></img>
+  <img src="https://media.discordapp.net/attachments/760496001936261230/981236375175188520/unknown.png?width=719&height=568" alt="Encrypto Banner"/>
 </p>
 
+---
 
-## Description: 📒
-Encrypto is a safe file transfer method to use rather than using files with password which can be cracked using brute force and other password cracking methods. Encrypt uses a ransomware technology for good. It encrypts any application or file and creates a key for it with an unique token in "/keys" folder. The key can be sent securely to the person who you want to access the file. Means post your file publicly but the one who can access it is in your hands!
+## 📘 Description
+**Encrypto** is a secure and modern approach to file sharing. Unlike traditional methods that rely on passwords (which can be cracked via brute force), Encrypto leverages **ransomware-style encryption for good**.
 
-#### We're dropping a new update in a few days
+It encrypts any file or application and generates a **unique decryption key**, saved in the `/keys` folder. You can share your file publicly — only users with the correct key can access it. You stay in full control of who unlocks the content.
 
-Created By -plagzee
+> 🚀 **New update dropping soon!**  
+> 👤 Created by: **@plagzee**
 
-## Analysis: 📊
-- [Motivation 😲](https://github.com/plagzee/encrypto#motivation-)
-- [Why Encrypto? 💭](https://github.com/plagzee/encrypto#why-encrypto-) and [Why not other methods? 🤔](https://github.com/plagzee/encrypto#why-not-other-methods-)
-- [Advantages 🤩](https://github.com/plagzee/encrypto#advantages-)
-- [Disadvantages 🤦](https://github.com/plagzee/encrypto#disadvantages-)
-- [Requirements 📝](https://github.com/plagzee/encrypto#requirements-) and also have some limitaions with [Requirements of shell script 📝](https://github.com/plagzee/encrypto#for-shell-application-)
-- [Installation 📦](https://github.com/plagzee/encrypto#installation-)
-- [Usage 📚](https://github.com/plagzee/encrypto#usage-)
-- [Credits 💳](https://github.com/plagzee/encrypto#developers-and-maintainers-)
+---
 
-## Motivation 😲
-In the world of file sharing, we can see that is usually done with password protected files or the cloud. But, in this case there is a problem. The files are not encrypted and can be easily accessed by anyone. This problem arises because of the fact these file sharing methods are not secure and are vurnerable which depends on the person who is sharing the file.
+## 📊 Project Overview
 
-### Why Encrypto? 🤔
-Encrypto encrypts the file and creates a key for it. The key is unique and can be sent to the person who wants to access the file. The file is encrypted and the key is not. The key is used to decrypt the file.
+- [🎯 Motivation](#-motivation)
+- [❓ Why Encrypto?](#-why-encrypto)
+- [📌 Why Not Other Methods?](#-why-not-other-methods)
+- [✅ Advantages](#-advantages)
+- [⚠️ Disadvantages](#-disadvantages)
+- [📦 Requirements](#-requirements)
+- [⚙️ Installation](#-installation)
+- [📚 Usage](#-usage)
+- [🤝 Contributing](#-contributing)
+- [👨‍💻 Developers & Maintainers](#-developers-and-maintainers)
 
-### Why not other methods? 🤔
-Even though other methods are extremely reliable and secure, they are not suitable for really confidential file sharing. Encrypto is a safe file sharing method because it is not vulnerable to any kind of attack like brute force or account takeovers. 
+---
 
-### Advantages ✔
-- ✅ Encrypto is really quick as it encrypts only a small part of the file.
+## 🎯 Motivation
+File sharing today often depends on password-protected archives or cloud services. These approaches can be **vulnerable to attacks**, with passwords being cracked or accounts being compromised.
 
-- ✅ Encrypto generates an unique token that can neither be found in any kind of word lists. 
+**Encrypto** aims to solve this by encrypting files with unique tokens, ensuring that only the intended recipient — the one with the matching key — can decrypt the file.
 
-- ✅ Encrypto is not vulnerable to any kind of attack like brute force or account takeovers.
+---
 
-- ✅ Encrypto uses the same technology as ransomware. It takes over an file and locks with a token.
+## ❓ Why Encrypto?
+Encrypto encrypts the file and generates a **unique key** for it. The file remains encrypted while the key (stored in `/keys`) can be shared securely with the intended recipient. You decide who gets access.
 
-- ✅ It is still secured even though it is an open-source project. Encrypto uses complex yet easy to read algorithms to encrypt the file.
+---
 
-### Disadvantages ❌
-- ❌ The key should not be handed over to any person who is not trusted to open the file. As once he has it he can spread it too, which is not good. It completely depends on the person who is sharing the file. (Beaware of social engineering)
+## 📌 Why Not Other Methods?
+While other file-sharing methods are widely used and relatively secure, they often fall short in handling **highly confidential** or **sensitive** data. Passwords can be guessed, brute-forced, or leaked. Encrypto minimizes this risk with true encryption.
 
-- ❌ The key is not encrypted. It can be easily found in the file.
+---
 
-- ❌ The key is one and only. Once lost, cannot be recovered.
+## ✅ Advantages
 
-- ❌ Encrypto is currently only maintained by only one person at this time and we're out for other contributors.
+- 🔐 **Fast & Lightweight** – Only encrypts essential file segments for speed.
+- 🧬 **Unique Token Generation** – Keys are unique, not found in standard wordlists.
+- 🛡️ **Resistant to Brute Force** – Unlike password locks, Encrypto uses token-based access.
+- 💀 **Inspired by Ransomware** – But used for good! Locks files securely with tokens.
+- 📖 **Open-Source & Transparent** – Clean, understandable algorithms with strong security.
 
-## Requirements 📦
-- Windows 10 64 bit or higher (The program will soon be also available for Linux and Mac)
+---
 
-### For shell application 📦
-- Python 3.9.5 or higher
-- Fernet library
+## ⚠️ Disadvantages
 
-## Installation 📦
-1. Go to [releases page](https://github.com/plagzee/encrypto/releases) and download the latest version of the program.
-2. Run the setup or extract the application and run it.
-3. Enjoy 😎
+- ❗ The **key must be protected** — sharing it with untrusted parties defeats the purpose.
+- ❗ The **key is not encrypted**, so treat it with care.
+- ❗ **Lost keys cannot be recovered.** There’s no backdoor.
+- ❗ Currently maintained by **a solo developer** — contributors welcome!
 
-### For shell application 📦
-1. Download the Shell application from [here]()
-2. Install the requirements by 
-```pip install -r requirements.txt```
+---
 
-Shell application is yet under development.
+## 📦 Requirements
 
-## Usage 📚
-Please read out the [documentation](https://voidal493.gitbook.io/encrypto-documentation/) for more information.
+- Windows 10 (64-bit) or higher  
+  *(Linux and macOS support coming soon)*
 
-## Contributing 💻
-If you have any suggestions or bug reports, please open an issue or create a pull request. 
-In this current states, we can't say it is not possible to contribute to the project. The program is fully functioning but there are many ways you can improve it.
+### For Shell Version:
+- Python 3.9.5+
+- `cryptography` library (Fernet)
 
-We're looking forward to:
-- A better GUI
-- The v3 will be containing a lot more stuff like password decryptor and RAR cracker
-- Shell application under development
-- Cross plat form support (Mac & Linux)
+---
 
-### How to contribute? 📝
-If you want to contribute in the program, feel free to open an issue or create a pull request. Howevever, before that. Please take a look at our [contribution guidelines](https://voidal493.gitbook.io/encrypto-documentation/).
+## ⚙️ Installation
 
-## Developers and maintainers 🤓
-- plagzee (Founder)
-- aashish6377 (Co-Founder. Releases Maintainer. Development
-We'll also add your name in case of an contribution. You're credited everywhere even in the changelogs.
+### GUI Application
+1. Go to the [Releases Page](https://github.com/plagzee/encrypto/releases)
+2. Download and run the latest version.
+3. Extract if needed and launch the app.
+4. Done ✅
+
+### Shell Application
+1. Download the shell version from [here]() *(link pending)*
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+> 🔧 *Shell version is still under development.*
+
+---
+
+## 📚 Usage
+Please refer to the official [📘 Documentation](https://voidal493.gitbook.io/encrypto-documentation/) for full details on usage, token handling, and file recovery.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributors! The project is stable but **open to improvements**, especially:
+
+- 🌈 Better & modern GUI
+- 🛠️ Shell version (WIP)
+- 🔄 Cross-platform support (macOS, Linux)
+- 🧪 Features like password decryptor and RAR cracker in upcoming v3
+
+### How to Contribute
+- Open an issue for bugs or ideas
+- Submit a pull request
+- Read our [Contribution Guidelines](https://voidal493.gitbook.io/encrypto-documentation/)
+
+---
+
+## 👨‍💻 Developers and Maintainers
+
+- **plagzee** – Founder  
+- **aashish6377** – Co-founder, Maintainer
+
+> 👏 Contributors will be credited in changelogs and project pages.
+
+---
